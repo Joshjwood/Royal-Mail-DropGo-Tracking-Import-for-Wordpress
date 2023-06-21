@@ -6,3 +6,8 @@ This should work for anyone but for several elements:
 - It assumes you're using the plugin "Advanced Shipment Tracking for WooCommerce"
 - On the 'Orders' page you must go to Screen Options and tick to show the 'Shipment Tracking' button, if it is not shown by default
 - We use a custom order status from a free plugin that we've called 'Packed' as part of our workflow ("Custom Order Status Manager for WooCommerce"). You will need to either create this order status or change the word packed in the URL in the classes.py to 'processing'. 
+
+notes:
+- Selenium is set to run headlesss, comment out this line of code to view what it's doing.
+
+If you're currently spending 20 - 30 minutes a day copy and pasting 10-20+ orders from one page to another this will be a godsend. Enjoy.
