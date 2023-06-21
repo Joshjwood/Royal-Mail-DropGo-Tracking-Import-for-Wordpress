@@ -10,4 +10,4 @@ This should work for anyone but for several elements:
 notes:
 - Selenium is set to run headlesss, comment out this line of code to view what it's doing.
 
-If you're currently spending 20 - 30 minutes a day copy and pasting 10-20+ orders from one page to another this will be a godsend. Enjoy.
+If you're currently spending 20 - 30 minutes a day copy and pasting 20+ tracking numbers from one page to another this will be a godsend. Enjoy.
