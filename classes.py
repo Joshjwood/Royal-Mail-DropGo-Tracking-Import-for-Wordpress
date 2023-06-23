@@ -87,7 +87,8 @@ class RoyalMailTrackingImporter:
             data = json.load(json_file)
             self.tracking_dict = data
         my_website = os.environ["MY_WEBSITE"]
-        self.driver.get(f"{my_website}wp-admin/edit.php?post_status=wc-packed&post_type=shop_order")
+        self.driver.get(f"{my_website}/wp-admin/edit.php?post_status=wc-packed&post_type=shop_order")
+
         USERNAME = os.environ["USERNAME"]
         FFPASS = os.environ["FFPASS"]
         time.sleep(0.5)

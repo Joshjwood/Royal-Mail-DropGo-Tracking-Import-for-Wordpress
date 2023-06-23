@@ -2,5 +2,5 @@ from classes import *
 
 bot = RoyalMailTrackingImporter()
 
-bot.GetTrackingIDs()
+#bot.GetTrackingIDs()
 bot.InputTrackingIDs()
